@@ -1,0 +1,162 @@
+/***********
+RESET
+************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+  -moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+  box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+
+}
+
+
+/***********
+Styles
+************/
+
+body {
+	font-size: 16px;
+	background: #ededed;
+	margin: 40px auto;
+	text-align: center;
+	font-family: 'Avenir', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+form {
+	margin: 40px auto;
+}
+
+input {
+	border: none;
+	outline: none;
+	border-radius: 24px;
+	height: 48px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+input[type="text"] {
+	width: 50%;
+	padding-left: 20px;
+
+}
+
+input[type="submit"] {
+	width: 20%;
+	color: white;
+
+}
+
+input[type="submit"]:hover {
+	background: pink;
+	cursor: pointer;
+}
+
+li {
+	margin: 32px 0;
+
+
+}
+
+h1 {
+	display: block;
+	margin: 8px 0;
+}
+
+h1 a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #4d4d4d;
+	padding: 6px;
+}
+
+h1 a:hover {
+	background: pink;
+	color: white;
+}
+
+
+/*************
+Media Queries
+*************/
+
+@media (max-width: 600px) {
+	input[type="text"], input[type="submit"] {
+	width: 90%;
+	margin: 8px 0;
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
